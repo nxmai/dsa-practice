@@ -33,7 +33,7 @@ int search(vector<int>& nums, int target) {
 			left = midpoint + 1;
 		else
 			right = midpoint - 1;
-	}
-
+	}   
+ 
 	return -1;
 }
